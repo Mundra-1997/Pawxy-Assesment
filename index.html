@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Video Search Engine</title>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Simple Video Search Engine</h1>
+    </header>
+
+    <div id="search-container">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Enter song name"
+      />
+      <button id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+
+    <div id="results-container">
+      <div id="results-list"></div>
+      <div id="pagination-container">
+        <button id="prev-button" disabled>Prev</button>
+        <span id="page-number"></span>
+        <button id="next-button" disabled>Next</button>
+      </div>
+    </div>
+
+    <div id="preview-overlay">
+      <div id="preview-content">
+        <button id="visit-button">Visit</button>
+        <button id="close-button">Close</button>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/fd5db32f45.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>
+    <script src="./index1.js"></script>
+  </body>
+</html>
